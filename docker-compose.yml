@@ -5,8 +5,8 @@ services:
       context: ./
       dockerfile: ./Dockerfile.dev
     volumes:
-      - ./:/go/src/github.com/Pixboost/transformimgs
+      - .:/go/src/github.com/Pixboost/transformimgs
     environment:
       MAGICK_TIME_LIMIT: "90"
     ports:
-      - "8080:8080"
+      - "7706:8080"

@@ -4,7 +4,8 @@
   local_certs
 
 }
-https://localhost, http://localhost, http://webserver {
+:80, http://imgserver {
+  
   log {
     level DEBUG
   }
